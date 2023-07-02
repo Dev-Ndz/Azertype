@@ -1,13 +1,24 @@
-let reponse = document.getElementById("texteSaisi");
-console.log(reponse);
+/*********************************************************************************
+ * 
+ * Point d'entrée, c'est lui qui intialise le jeu et lance la boucle de jeu. 
+ * 
+ *********************************************************************************/
 
-let boutonValider = document.getElementById("boutonValider");
-console.log(boutonValider);
+lancerJeu()
 
-let divZoneProposition = document.querySelector(".zoneProposition");
-console.log(divZoneProposition);
+// J'ai mis ce code en commentaire, nous pourrons le récupérer lorsque nous en auront besoin :
 
+// let inputEcriture = document.getElementById("inputEcriture")
+// console.log(inputEcriture)
 
+// let btnValiderMot = document.getElementById("btnValiderMot")
+// console.log(btnValiderMot)
 
-let optionSource = document.querySelectorAll(".optionSource input");
-console.log(optionSource);
+// let zoneProposition = document.querySelector(".zoneProposition")
+// console.log(zoneProposition)
+
+// let spanScore = document.querySelector(".zoneScore span")
+// console.log(spanScore)
+
+// let listeBtnRadio = document.querySelectorAll(".optionSource input")
+// console.log(listeBtnRadio)
