@@ -7,7 +7,7 @@ function afficherResultat(score,nbrQuestions){
 
 }
 
-function choisirPhrasesOuMots(){
+/*function choisirPhrasesOuMots(){
     // Déclaration de la variable contenant le choix de l'utilisateur
     let choix = prompt("Avec quelle liste désirez-vous jouer : 'mots' ou 'phrases' ?")
     // Tant que l'utilisateur n'a pas saisi "mots" ou "phrases", on lui redemande de saisir un choix
@@ -20,8 +20,8 @@ function choisirPhrasesOuMots(){
         return listePhrases
     }
 }
-
-function lancerBoucleDeJeu(tableauChoisi)
+*/
+/*function lancerBoucleDeJeu(tableauChoisi)
 {
     for (let i = 0; i < tableauChoisi.length; i++) 
     {
@@ -33,7 +33,7 @@ function lancerBoucleDeJeu(tableauChoisi)
     }
     return score
 }
-
+*/
 function lancerJeu(){
     let choix = choisirPhrasesOuMots()
     nbrQuestions = choix.length
