@@ -42,4 +42,4 @@ function lancerJeu(){
     console.log(resultat)
 }
 
-//lancerJeu();
+lancerJeu();
