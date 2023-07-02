@@ -1,7 +1,10 @@
 let score = 0
+let nbrQuestions = 0
 function afficherResultat(score,nbrQuestions){
-    let message ="ton score est de "+score+ " points sur "+nbrQuestions
-    return message
+    let spanScore = document.querySelector(".zoneScore span");
+    let affichageScore = `${score} / ${nbrQuestions}`;
+    spanScore.innerText = affichageScore;
+
 }
 
 function choisirPhrasesOuMots(){
@@ -33,7 +36,10 @@ function lancerBoucleDeJeu(tableauChoisi)
 
 function lancerJeu(){
     let choix = choisirPhrasesOuMots()
+    nbrQuestions = choix.length
     score = lancerBoucleDeJeu(choix)
-    resultat=afficherResultat(score,choix.length)
+    resultat=afficherResultat(score,nbrQuestions)
     console.log(resultat)
 }
+
+//lancerJeu();
